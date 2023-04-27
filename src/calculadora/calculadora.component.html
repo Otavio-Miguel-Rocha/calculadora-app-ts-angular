@@ -42,6 +42,14 @@
       </div>
       <div class="grid-collumn">
         <app-botao
+          (click)="operacoes(1)"
+          larguraPadrao="70px"
+          alturaPadrao="70px"
+          conteudo="+"
+          fontSize="30px"
+          backgroundColor="lightblue"
+        ></app-botao>
+        <app-botao
           (click)="numeros(1)"
           larguraPadrao="70px"
           alturaPadrao="70px"
@@ -65,16 +73,16 @@
           fontSize="30px"
           backgroundColor="lightblue"
         ></app-botao>
-        <app-botao
-          (click)="operacoes(1)"
-          larguraPadrao="70px"
-          alturaPadrao="70px"
-          conteudo="+"
-          fontSize="30px"
-          backgroundColor="#054F77"
-        ></app-botao>
       </div>
       <div class="grid-collumn">
+        <app-botao
+          (click)="operacoes(2)"
+          larguraPadrao="70px"
+          alturaPadrao="70px"
+          conteudo="-"
+          fontSize="30px"
+          backgroundColor="lightblue"
+        ></app-botao>
         <app-botao
           (click)="numeros(4)"
           larguraPadrao="70px"
@@ -99,16 +107,16 @@
           fontSize="30px"
           backgroundColor="lightblue"
         ></app-botao>
-        <app-botao
-          (click)="operacoes(2)"
-          larguraPadrao="70px"
-          alturaPadrao="70px"
-          conteudo="-"
-          fontSize="30px"
-          backgroundColor="#054F77"
-        ></app-botao>
       </div>
       <div class="grid-collumn">
+        <app-botao
+          (click)="operacoes(3)"
+          larguraPadrao="70px"
+          alturaPadrao="70px"
+          conteudo="/"
+          fontSize="30px"
+          backgroundColor="lightblue"
+        ></app-botao>
         <app-botao
           (click)="numeros(7)"
           larguraPadrao="70px"
@@ -133,23 +141,23 @@
           fontSize="30px"
           backgroundColor="lightblue"
         ></app-botao>
-        <app-botao
-          (click)="operacoes(3)"
-          larguraPadrao="70px"
-          alturaPadrao="70px"
-          conteudo="/"
-          fontSize="30px"
-          backgroundColor="#054F77"
-        ></app-botao>
       </div>
       <div class="grid-collumn">
+        <app-botao
+          (click)="operacoes(4)"
+          larguraPadrao="70px"
+          alturaPadrao="70px"
+          conteudo="*"
+          fontSize="30px"
+          backgroundColor="lightblue"
+        ></app-botao>
         <app-botao
           (click)="numeros(100)"
           larguraPadrao="70px"
           alturaPadrao="70px"
           conteudo="."
           fontSize="30px"
-          backgroundColor="#054F77"
+          backgroundColor="lightblue"
         ></app-botao>
         <app-botao
           (click)="numeros(0)"
@@ -164,14 +172,6 @@
           larguraPadrao="70px"
           alturaPadrao="70px"
           conteudo="="
-          fontSize="30px"
-          backgroundColor="#054F77"
-        ></app-botao>
-        <app-botao
-          (click)="operacoes(4)"
-          larguraPadrao="70px"
-          alturaPadrao="70px"
-          conteudo="*"
           fontSize="30px"
           backgroundColor="#054F77"
         ></app-botao>
